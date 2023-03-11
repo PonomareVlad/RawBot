@@ -10,11 +10,12 @@
   },
   "dependencies": {
     "telebot": "^1.4.1",
-    "telebot-vercel": "0.0.10"
+    "telebot-vercel": "0.0.10",
+    "telegram-md": "^1.2.3"
   },
   "peerDependencies": {
-    "vercel": "latest",
-    "@vkontakte/vk-tunnel": "latest"
+    "@vkontakte/vk-tunnel": "latest",
+    "vercel": "latest"
   },
   "peerDependenciesMeta": {
     "vercel": {
