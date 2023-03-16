@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "telebot": "^1.4.1",
-    "telebot-vercel": "0.0.10",
+    "telebot-vercel": "1.0.1",
     "telegram-md": "^1.2.3"
   },
   "peerDependencies": {
