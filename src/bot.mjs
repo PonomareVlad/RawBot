@@ -1,5 +1,7 @@
 import TeleBot from "telebot"
 import {md} from "telegram-md"
+import "telebot/plugins/shortReply.js"
+import "telebot/plugins/regExpMessage.js"
 import {NewMethodsMixin, parseCommands} from "telebot-utils"
 
 const TeleBotWithNewMethods = NewMethodsMixin(TeleBot)

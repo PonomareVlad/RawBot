@@ -1,7 +1,7 @@
-import commands from "../commands.json" assert {type: "json"}
+import commands from "../src/commands.mjs"
 import {setWebhook} from "telebot-vercel"
-import bot from "../bot.mjs"
+import bot from "../src/bot.mjs"
 
 await bot.setMyCommands(commands).catch(console.error)
 
-export default setWebhook({bot, path: 'api/telegram.mjs'})
+export default setWebhook({bot, path: "api/telegram.mjs"})
